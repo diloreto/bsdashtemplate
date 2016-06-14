@@ -2,7 +2,7 @@
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            MarinaroCorp Admin <small>Company Overview</small>
+            HamMar Projects Admin <small>Invoice Manager</small>
         </h1>
         <ol class="breadcrumb">
             <li class="active">

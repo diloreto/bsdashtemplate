@@ -7,10 +7,10 @@
         </h1>
         <ol class="breadcrumb">
             <li>
-                <i class="fa fa-dashboard"></i>  <a href="index.php?a=index">Dashboard</a>
+                <i class="fa fa-dashboard" aria-hidden="true"></i>  <a href="index.php?a=index">Dashboard</a>
             </li>
             <li class="active">
-                <i class="fa fa-table"></i> Tables
+                <i class="fa fa-table" aria-hidden="true"></i> Tables
             </li>
         </ol>
     </div>

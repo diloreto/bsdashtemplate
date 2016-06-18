@@ -8,10 +8,10 @@
                         </h1>
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.php?a=index">Dashboard</a>
+                                <i class="fa fa-dashboard" aria-hidden="true"></i>  <a href="index.php?a=index">Dashboard</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-desktop"></i> Bootstrap Elements
+                                <i class="fa fa-desktop" aria-hidden="true"></i> Bootstrap Elements
                             </li>
                         </ol>
                     </div>

@@ -1,6 +1,6 @@
 <?php
 	require("inc/head.inc.php");
-	$page = !empty($_GET['a']) ? $_GET['a'] : "dashboard";
+	$page = !empty($_GET['a']) ? $_GET['a'] : "home";
 	$file = "pages/" . $page . ".php";
 ?>
 
@@ -32,7 +32,7 @@
             <div class="container-fluid">
 
                 <!-- Body -->
-                <?php require($file); ?>
+                <?php if(file_exists($file)) require($file); ?>
                 <!-- /Body -->
 
             </div>

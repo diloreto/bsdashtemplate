@@ -604,6 +604,7 @@ if (typeof jQuery === 'undefined') {
     this.$trigger
       .removeClass('collapsed')
       .attr('aria-expanded', true)
+	  .children('i.fa-caret-right').removeClass('fa-caret-right').addClass('fa-caret-down');
 
     this.transitioning = 1
 
@@ -639,11 +640,13 @@ if (typeof jQuery === 'undefined') {
     this.$element
       .addClass('collapsing')
       .removeClass('collapse in')
-      .attr('aria-expanded', false)
+      .attr('aria-expanded', false)  
 
     this.$trigger
       .addClass('collapsed')
       .attr('aria-expanded', false)
+	  .children('i.fa-caret-down').removeClass('fa-caret-down').addClass('fa-caret-right');
+
 
     this.transitioning = 1
 

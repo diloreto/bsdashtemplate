@@ -7,7 +7,7 @@
         </h1>
         <ol class="breadcrumb">
             <li class="active">
-                <i class="fa fa-dashboard"></i> Dashboard
+                <i class="fa fa-dashboard" aria-hidden="true"></i> Dashboard
             </li>
         </ol>
     </div>
@@ -18,7 +18,7 @@
     <div class="col-lg-12">
         <div class="alert alert-info alert-dismissable">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <i class="fa fa-info-circle"></i>  <strong>Like SB Admin?</strong> Try out <a href="http://startbootstrap.com/template-overviews/sb-admin-2" class="alert-link">SB Admin 2</a> for additional features!
+            <i class="fa fa-info-circle" aria-hidden="true"></i>  <strong>Like SB Admin?</strong> Try out <a href="http://startbootstrap.com/template-overviews/sb-admin-2" class="alert-link">SB Admin 2</a> for additional features!
         </div>
     </div>
 </div>
@@ -30,7 +30,7 @@
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-3">
-                        <i class="fa fa-comments fa-5x"></i>
+                        <i class="fa fa-comments fa-5x" aria-hidden="true"></i>
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge">26</div>
@@ -41,7 +41,7 @@
             <a href="#">
                 <div class="panel-footer">
                     <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
@@ -52,7 +52,7 @@
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-3">
-                        <i class="fa fa-tasks fa-5x"></i>
+                        <i class="fa fa-tasks fa-5x" aria-hidden="true"></i>
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge">12</div>
@@ -63,7 +63,7 @@
             <a href="#">
                 <div class="panel-footer">
                     <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
@@ -74,7 +74,7 @@
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-3">
-                        <i class="fa fa-shopping-cart fa-5x"></i>
+                        <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge">124</div>
@@ -85,7 +85,7 @@
             <a href="#">
                 <div class="panel-footer">
                     <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
@@ -96,7 +96,7 @@
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-xs-3">
-                        <i class="fa fa-support fa-5x"></i>
+                        <i class="fa fa-support fa-5x" aria-hidden="true"></i>
                     </div>
                     <div class="col-xs-9 text-right">
                         <div class="huge">13</div>
@@ -107,7 +107,7 @@
             <a href="#">
                 <div class="panel-footer">
                     <span class="pull-left">View Details</span>
-                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                    <span class="pull-right"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
                     <div class="clearfix"></div>
                 </div>
             </a>
@@ -120,7 +120,7 @@
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Area Chart</h3>
+                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw" aria-hidden="true"></i> Area Chart</h3>
             </div>
             <div class="panel-body">
                 <div id="morris-area-chart"></div>
@@ -134,12 +134,12 @@
     <div class="col-lg-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Donut Chart</h3>
+                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw" aria-hidden="true"></i> Donut Chart</h3>
             </div>
             <div class="panel-body">
                 <div id="morris-donut-chart"></div>
                 <div class="text-right">
-                    <a href="#">View Details <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#">View Details <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -147,45 +147,45 @@
     <div class="col-lg-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Tasks Panel</h3>
+                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> Tasks Panel</h3>
             </div>
             <div class="panel-body">
                 <div class="list-group">
                     <a href="#" class="list-group-item">
                         <span class="badge">just now</span>
-                        <i class="fa fa-fw fa-calendar"></i> Calendar updated
+                        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Calendar updated
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">4 minutes ago</span>
-                        <i class="fa fa-fw fa-comment"></i> Commented on a post
+                        <i class="fa fa-fw fa-comment" aria-hidden="true"></i> Commented on a post
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">23 minutes ago</span>
-                        <i class="fa fa-fw fa-truck"></i> Order 392 shipped
+                        <i class="fa fa-fw fa-truck" aria-hidden="true"></i> Order 392 shipped
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">46 minutes ago</span>
-                        <i class="fa fa-fw fa-money"></i> Invoice 653 has been paid
+                        <i class="fa fa-fw fa-money" aria-hidden="true"></i> Invoice 653 has been paid
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">1 hour ago</span>
-                        <i class="fa fa-fw fa-user"></i> A new user has been added
+                        <i class="fa fa-fw fa-user" aria-hidden="true"></i> A new user has been added
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">2 hours ago</span>
-                        <i class="fa fa-fw fa-check"></i> Completed task: "pick up dry cleaning"
+                        <i class="fa fa-fw fa-check" aria-hidden="true"></i> Completed task: "pick up dry cleaning"
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">yesterday</span>
-                        <i class="fa fa-fw fa-globe"></i> Saved the world
+                        <i class="fa fa-fw fa-globe" aria-hidden="true"></i> Saved the world
                     </a>
                     <a href="#" class="list-group-item">
                         <span class="badge">two days ago</span>
-                        <i class="fa fa-fw fa-check"></i> Completed task: "fix error on sales page"
+                        <i class="fa fa-fw fa-check" aria-hidden="true"></i> Completed task: "fix error on sales page"
                     </a>
                 </div>
                 <div class="text-right">
-                    <a href="#">View All Activity <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#">View All Activity <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -193,7 +193,7 @@
     <div class="col-lg-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-money fa-fw"></i> Transactions Panel</h3>
+                <h3 class="panel-title"><i class="fa fa-money fa-fw" aria-hidden="true"></i> Transactions Panel</h3>
             </div>
             <div class="panel-body">
                 <div class="table-responsive">
@@ -259,7 +259,7 @@
                     </table>
                 </div>
                 <div class="text-right">
-                    <a href="#">View All Transactions <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#">View All Transactions <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

@@ -7,10 +7,10 @@
         </h1>
         <ol class="breadcrumb">
             <li>
-                <i class="fa fa-dashboard"></i>  <a href="index.php?a=index">Dashboard</a>
+                <i class="fa fa-home" aria-hidden="true"></i>  <a href="index.php?a=index">Home</a>
             </li>
             <li class="active">
-                <i class="fa fa-edit"></i> Forms
+                <i class="fa fa-edit" aria-hidden="true"></i> Forms
             </li>
         </ol>
     </div>
@@ -207,7 +207,7 @@
             </div>
 
             <div class="form-group input-group">
-                <span class="input-group-addon"><i class="fa fa-eur"></i></span>
+                <span class="input-group-addon"><i class="fa fa-eur" aria-hidden="true"></i></span>
                 <input type="text" class="form-control" placeholder="Font Awesome Icon">
             </div>
 
@@ -219,7 +219,7 @@
 
             <div class="form-group input-group">
                 <input type="text" class="form-control">
-                <span class="input-group-btn"><button class="btn btn-default" type="button"><i class="fa fa-search"></i></button></span>
+                <span class="input-group-btn"><button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button></span>
             </div>
 
         </form>

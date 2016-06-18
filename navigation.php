@@ -15,34 +15,47 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
-                        <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    <li <?php if($page == "dashboard") echo "class='active'"; ?>>
+                        <a href="index.php?a=dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#invoiceDD"><i class="fa fa-fw fa-table"></i> Invoices <i class="fa fa-fw fa-caret-down"></i></a>
+                    <li <?php if($page == "invoice") echo "class='active'"; ?>>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#invoiceDD"><i class="fa fa-fw fa-table"></i> Invoices <i class="fa fa-fw fa-caret-right"></i></a>
                         <ul id="invoiceDD" class="collapse">
                             <li>
-                                <a href="?a=invoices&t=add"><i class="fa fa-fw fa-plus"></i> Add New</a>
+                                <a href="?a=invoice&t=add"><i class="fa fa-fw fa-plus"></i> Add New</a>
                             </li>
                             <li>
-                                <a href="?a=invoices&t=view"><i class="fa fa-fw fa-list-ol"></i> View All</a>
+                                <a href="?a=invoice&t=view"><i class="fa fa-fw fa-list-ol"></i> View All</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#tasksDD"><i class="fa fa-fw fa-tags"></i> Tasks <i class="fa fa-fw fa-caret-down"></i></a>
+                    <li <?php if($page == "task") echo "class='active'"; ?>>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#tasksDD"><i class="fa fa-fw fa-tags"></i> Tasks <i class="fa fa-fw fa-caret-right"></i></a>
                         <ul id="tasksDD" class="collapse">
                             <li>
-                                <a href="?a=invoices&t=add"><i class="fa fa-fw fa-plus"></i> Add New</a>
+                                <a href="?a=task&t=add"><i class="fa fa-fw fa-plus"></i> Add New</a>
                             </li>
                             <li>
-                                <a href="?a=invoices&t=view"><i class="fa fa-fw fa-list-ol"></i> View All</a>
+                                <a href="?a=task&t=view"><i class="fa fa-fw fa-list-ol"></i> View All</a>
                             </li>
                         </ul>
                     </li>
+                    <li <?php if($page == "customers") echo "class='active'"; ?>>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#customersDD"><i class="fa fa-fw fa-users"></i> Customers <i class="fa fa-fw fa-caret-right"></i></a>
+                        <ul id="customersDD" class="collapse">
+                            <li>
+                                <a href="?a=customer&t=add"><i class="fa fa-fw fa-plus"></i> Add New</a>
+                            </li>
+                            <li>
+                                <a href="?a=customer&t=view"><i class="fa fa-fw fa-list-ol"></i> View All</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--
                     <li>
                         <a href="?a=charts"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
                     </li>
+                    -->
                     <!--
                     <li>
                         <a href="?a=tables"><i class="fa fa-fw fa-table"></i> Tables</a>

@@ -1,18 +1,22 @@
-<?php require("PHP-Login/login/loginheader.php"); ?>
 <?php
 
-// Connect to database
-$mysqli = new mysqli("localhost", "tonydilo_matty", "Concrete#1", "tonydilo_marinaro");
-
-/*
- * This is the "official" OO way to do it,
- * BUT $connect_error was broken until PHP 5.2.9 and 5.3.0.
- */
-if ($mysqli->connect_error) {
-    die('Connect Error (' . $mysqli->connect_errno . ') '
-            . $mysqli->connect_error);
+// Prevent hitting the homepage inadvertently without logging in
+$sf = $_SERVER['SCRIPT_NAME'];
+$sfp = explode("/", $sf);
+session_start();
+if( $sfp[ sizeof($sfp)-1 ] !== "login.php" && empty($_SESSION['user_session']) ){
+	header("location:login.php");
 }
 
+// If you are logged in, connect to the database
+ require_once 'dbconfig.php';
 
-mysqli_close($link);
+$stmt = $db_con->prepare("SELECT * FROM users WHERE EMAIL_ADDRESS =:email");
+$stmt->execute(array(":email"=>$user_email));
+$row = $stmt->fetch(PDO::FETCH_ASSOC);
+$count = $stmt->rowCount();
+   
+
+
+
 ?>

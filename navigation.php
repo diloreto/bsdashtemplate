@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">HamMar Admin</a>
+                <img src="img/favicons/android-icon-36x36.png" alt="HamMar Tech" id="nav-logo" title="HamMar Tech" style="margin-top:5px" /> <a class="navbar-brand" href="index.php">HamMar Admin</a>
             </div>
 
 			<?php require("messages.php"); ?>
@@ -40,7 +40,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li <?php if($page == "customers") echo "class='active'"; ?>>
+                    <li <?php if($page == "customer") echo "class='active'"; ?>>
                         <a href="javascript:;" data-toggle="collapse" data-target="#customersDD"><i class="fa fa-fw fa-users"></i> Customers <i class="fa fa-fw fa-caret-right"></i></a>
                         <ul id="customersDD" class="collapse">
                             <li>

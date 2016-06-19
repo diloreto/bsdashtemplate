@@ -2,11 +2,11 @@
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            HamMar Projects Admin <small>Ver 1.0.2</small>
+            HamMar Admin <small>Ver 1.0.2</small>
         </h1>
         <ol class="breadcrumb">
             <li class="active">
-                <i class="fa fa-dashboard" aria-hidden="true"></i> Dashboard
+                <i class="fa fa-home" aria-hidden="true"></i> Home
             </li>
         </ol>
     </div>
